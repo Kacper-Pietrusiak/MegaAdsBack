@@ -12,5 +12,7 @@
     "emitDecoratorMetadata": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-  }
+  },
+  "exclude": ["**/*.(spec|test).ts", "node_modules"],
+  "include": ["src/*"]
 }
